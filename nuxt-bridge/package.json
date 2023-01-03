@@ -9,7 +9,6 @@
     "generate": "nuxi generate"
   },
   "dependencies": {
-    "core-js": "^3.25.3",
     "nuxt-edge": "latest",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
