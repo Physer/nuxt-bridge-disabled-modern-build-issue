@@ -7,7 +7,7 @@ This repository shows an issue with the `--modern` flag for the Nuxt CLI.
 When using Nuxt Bridge (`nuxt-edge` and `nuxt-bridge`) but `Nitro` is disabled as a build tool, the `--modern` flag is unable to resolve a Typescript import.
 
 ## Repository structure
-There are 4 demo applications in this repository. Every application works with the regular build step or in dev mode. However, when using the `--modern` CLI flag with `nuxt` (read more), it doesn't work in one of the 4 applications: `nuxt-bridge-without-nuxi`.
+There are 4 demo applications in this repository. Every application works with the regular build step or in dev mode. However, when using the `--modern` CLI flag with `nuxt` ([read more](https://nuxtjs.org/docs/configuration-glossary/configuration-modern#the-modern-property)), it doesn't work in one of the 4 applications: `nuxt-bridge-without-nuxi`.
 | Application              | Nuxt version             | CLI tool | --modern flag works | Regular build works |
 |--------------------------|--------------------------|----------|---------------------|---------------------|
 | nuxt-v2                  | 2.15.8                   | nuxt     | :white_check_mark:  | :white_check_mark:  |
