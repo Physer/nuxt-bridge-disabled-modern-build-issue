@@ -40,7 +40,18 @@ Everything works as expected and when you navigate to `http://localhost:3000` yo
 
 Now go to the `~/nuxt-bridge-without-nuxi` folder and run the same commands.
 
-This will fail due to being unable to locate the Typescript file.
+This will fail due to being unable to locate the Typescript file:
+```
+ERROR in ./pages/index.vue?vue&type=script&lang=ts& (./node_modules/@nuxt/components/dist/loader.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=ts&)
+Module not found: Error: Can't resolve '../externalFile' in 'C:\Projects\nuxt-bridge-disabled-modern-build-issue\nuxt-bridge-without-nuxi\pages'
+ @ ./pages/index.vue?vue&type=script&lang=ts& (./node_modules/@nuxt/components/dist/loader.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=ts&) 3:0-34 8:14-18
+ @ ./pages/index.vue?vue&type=script&lang=ts&
+ @ ./pages/index.vue
+ @ ./.nuxt/router.js
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi ./node_modules/@nuxt/components/lib/installComponents.js ./.nuxt/client.js
+```
 
 ## Nuxt Bridge without Nitro configuration
 The failing application has a peculiar configuration.
