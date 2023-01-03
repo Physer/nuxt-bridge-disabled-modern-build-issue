@@ -12,7 +12,7 @@ There are 4 demo applications in this repository. Every application works with t
 |--------------------------|--------------------------|----------|---------------------|---------------------|
 | nuxt-v2                  | 2.15.8                   | nuxt     | :white_check_mark:  | :white_check_mark:  |
 | nuxt-bridge              | 2.16.0-27720022.54e852f  | nuxi     | N/A                 | :white_check_mark:  |
-| nuxt-bridge-without-nuxi | v2.16.0-27720022.54e852f | nuxt     | :x:                 | :white_check_mark:  |
+| nuxt-bridge-without-nuxi | 2.16.0-27720022.54e852f  | nuxt     | :x:                 | :white_check_mark:  |
 | nuxt-v3                  | 3.0.0                    | nuxi     | N/A                 | :white_check_mark:  |
 
 ## Project structure
